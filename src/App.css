@@ -46,6 +46,10 @@ button:hover {
   background-color: #1aa152;
 }
 
+button[disabled] {
+  opacity: 0.2;
+}
+
 p {
   color: white;
   background-color: #3ec275;

@@ -73,9 +73,9 @@ function App() {
       </table>
 
       <div className='actions'>
-        <button onClick={handlePrev}>Previous</button>
+        <button onClick={handlePrev} disabled={currPage == 1}>Previous</button>
         <p>{currPage}</p>
-        <button onClick={handleNext}>Next</button>
+        <button onClick={handleNext} disabled={currPage == totalPages}>Next</button>
       </div>
     </div>
   )
