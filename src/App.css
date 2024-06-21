@@ -1,0 +1,55 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.empTable {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  color: white;
+  background-color: #3ec275;
+}
+
+.empTable tbody tr:last-child {
+  border-bottom: 2px solid #3ec275;
+}
+
+button {
+  color: white;
+  background-color: #3ec275;
+  border-radius: 5px;
+  border: 0;
+  padding: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1aa152;
+}
+
+p {
+  color: white;
+  background-color: #3ec275;
+  border-radius: 5px;
+  padding: 10px;
+}
+
